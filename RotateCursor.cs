@@ -3,7 +3,7 @@ using System.Collections;
 
 public class RotateCursor : MonoBehaviour
 {
-    public float speed;
+    [Range(0.1f, 20f)] public float speed;
     public Transform target;
     private float coef = 0;
     public float maxcoef;
